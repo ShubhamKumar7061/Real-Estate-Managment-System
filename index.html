@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Real Estate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🏠 Real Estate Management</h1>
+
+    <h2>Add Property</h2>
+
+    <form id="propertyForm">
+    <input type="text" id="title" placeholder="Title" required>
+    <input type="text" id="location" placeholder="Location" required>
+    <input type="number" id="price" placeholder="Price" required>
+    <input type="file" id="image" required>
+    <input type="text" id="searchBox" placeholder="Search Property">
+    <button onclick="searchProperty()">Search</button>
+    <button onclick="logout()">Logout</button>
+    <button onclick="window.location='messages.html'">📩 View Messages</button>
+    <button>Add</button>
+    </form>
+
+    <h2>Property List</h2>
+    <ul id="propertyList"></ul>
+
+    <script src="script.js"></script>
+</body>
+   
+</html>

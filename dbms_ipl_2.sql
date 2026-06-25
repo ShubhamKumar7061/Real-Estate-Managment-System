@@ -1,0 +1,2 @@
+ALTER TABLE properties ADD COLUMN image VARCHAR(255);
+
